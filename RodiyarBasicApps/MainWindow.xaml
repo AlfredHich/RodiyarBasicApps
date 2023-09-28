@@ -1,0 +1,20 @@
+﻿<Window x:Class="RodiyarBasicApps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RodiyarBasicApps"
+        mc:Ignorable="d"
+        Title="RodiyarBasicApp" Height="484" Width="370" Background="#FF0A0000">
+    <Grid HorizontalAlignment="Center" Width="350" Height="480" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="microsoftOffice" Content="Microsoft Office 2016-2021" HorizontalAlignment="Center" Margin="0,73,0,0" VerticalAlignment="Top" Width="170" Height="38"/>
+        <Button x:Name="googleChrome" Content="Google Chrome" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" Width="170" Height="38" Click="googleChrome_Click"/>
+        <Button x:Name="pdf24" Content="PDF 24" HorizontalAlignment="Center" Margin="0,149,0,0" VerticalAlignment="Top" Width="170" Height="38"/>
+        <Button x:Name="adobeReader" Content="Adobe Reader" HorizontalAlignment="Center" Margin="0,187,0,0" VerticalAlignment="Top" Width="170" Height="38"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,225,0,0" VerticalAlignment="Top" Height="38" Width="170"/>
+
+    </Grid>
+</Window>
