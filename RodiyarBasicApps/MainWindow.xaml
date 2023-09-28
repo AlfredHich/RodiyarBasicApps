@@ -10,11 +10,16 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="microsoftOffice" Content="Microsoft Office 2016-2021" HorizontalAlignment="Center" Margin="0,73,0,0" VerticalAlignment="Top" Width="170" Height="38"/>
-        <Button x:Name="googleChrome" Content="Google Chrome" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" Width="170" Height="38" Click="googleChrome_Click"/>
-        <Button x:Name="pdf24" Content="PDF 24" HorizontalAlignment="Center" Margin="0,149,0,0" VerticalAlignment="Top" Width="170" Height="38"/>
-        <Button x:Name="adobeReader" Content="Adobe Reader" HorizontalAlignment="Center" Margin="0,187,0,0" VerticalAlignment="Top" Width="170" Height="38"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,225,0,0" VerticalAlignment="Top" Height="38" Width="170"/>
+        <Button x:Name="microsoftOffice" Content="Microsoft Office 2016-2021" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="160" Height="50" Click="microsoftOffice_Click"/>
+        <Button x:Name="googleChrome" Content="Google Chrome" HorizontalAlignment="Left" Margin="180,47,0,0" VerticalAlignment="Top" Width="160" Height="50" Click="googleChrome_Click"/>
+        <Button x:Name="pdf24" Content="PDF 24" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" Width="160" Height="50"/>
+        <Button x:Name="adobeReader" Content="Adobe Reader" HorizontalAlignment="Left" Margin="180,102,0,0" VerticalAlignment="Top" Width="160" Height="50"/>
+        <Button x:Name="_7zip" Content="7Zip" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
+        <Button x:Name="bitrix24" Content="Bitrix 24" HorizontalAlignment="Left" Margin="180,157,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
+        <Button x:Name="commFort" Content="CommFort" HorizontalAlignment="Left" Margin="10,212,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
+        <Button x:Name="rmsHost" Content="RMS host" HorizontalAlignment="Left" Margin="180,212,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
+        <Button x:Name="lightShot" Content="LightShot" HorizontalAlignment="Left" Margin="10,267,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
+        <Button x:Name="sumatraPDF" Content="SumatraPDF" HorizontalAlignment="Left" Margin="180,267,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
 
     </Grid>
 </Window>

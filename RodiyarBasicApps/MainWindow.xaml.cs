@@ -26,14 +26,5 @@ namespace RodiyarBasicApps
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void googleChrome_Click(object sender, RoutedEventArgs e)
-        {
-            Process.Start ("http://www.facebook.com");
-        }
     }
 }
